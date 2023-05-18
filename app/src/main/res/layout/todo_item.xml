@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/rounded_corners">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#000000"
+        android:checked="false" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTint="#000000"
+        android:hint="Enter To-Do item"
+        android:inputType="textNoSuggestions"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
+        android:textSize="16sp"
+        android:translationX="45dp"
+        android:typeface="serif"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="355dp"
+        android:layout_height="29dp"
+        android:layout_weight="1"
+        android:drawableTint="#000000"
+        android:hint="Enter To-Do item"
+        android:inputType="textNoSuggestions"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
+        android:textSize="16sp"
+        android:translationX="48dp"
+        android:translationY="10dp"
+        android:typeface="serif" />
+</FrameLayout>
